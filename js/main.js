@@ -37,8 +37,9 @@ TxtType.prototype.tick = function(){
     var that = this;
     var delta = 200 - Math.random() * 100;
 
-    if ( this.isDeleting){ delta /= 2; }
-
+    if ( this.isDeleting){
+	delta /= 2;
+    }
     if ( !this.isDeleting && this.txt === fullTxt){
         delta = this.period;
         this.isDeleting = true;
@@ -65,6 +66,6 @@ window.onload = function(){
     // INJECT CSS
     var css = document.createElement( "style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #333333}";
     document.body.appendChild( css);
 };
