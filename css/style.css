@@ -11,10 +11,6 @@ body {
   padding: 13%;
 }
 
-img{
-    width: 80%;
-}
-
 .column {
   float: left;
   width: 50%;
@@ -36,3 +32,7 @@ img{
 h2{
     color: #0275DA;
 }
+
+/* .about img{ */
+/*     width: 200px; */
+/* } */
