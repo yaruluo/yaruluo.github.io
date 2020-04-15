@@ -1,0 +1,26 @@
+* {
+    color: #333333;
+    text-decoration: none;
+}
+
+/* body { */
+/*     /\* background-color: #fff2e5; *\/ */
+/*     color: #333333; */
+/*     font-family: Helvetica, sans-serif; */
+/*     font-size: 18px; */
+/*     font-weight: bold; */
+/*     text-align: center; */
+/*     text-overflow: hidden; */
+/*     padding-top: 10em; */
+/* } */
+
+
+
+body {
+  background-color:#fff2e5;
+  text-align: center;
+  color:#333333;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px; 
+  padding-top:10em;
+}
