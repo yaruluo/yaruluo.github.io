@@ -5,7 +5,8 @@
 body {
   /* background-color:#e6f7ff; */
   color:#333333;
-  font-family: Helvetica, sans-serif;
+  /* font-family: Helvetica, sans-serif; */
+  font-family: 'Roboto', sans-serif;
   font-size: 18px; 
   padding: 13%;
 }
@@ -25,4 +26,13 @@ img{
   content: "";
   display: table;
   clear: both;
+}
+
+.footer{
+    text-align: center;
+    color: grey;
+}
+
+h3{
+    color: #0275DA;
 }
