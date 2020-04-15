@@ -1,11 +1,9 @@
 * {
-    color: #333333;
     text-decoration: none;
 }
 
 body {
   background-color:#e6f7ff;
-  text-align: center;
   color:#333333;
   font-family: Helvetica, sans-serif;
   font-size: 18px; 
@@ -19,6 +17,7 @@ img{
 .column {
   float: left;
   width: 50%;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
