@@ -8,7 +8,7 @@ body {
   /* font-family: Helvetica, sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-size: 18px; 
-  padding: 13%;
+  padding: 12%;
 }
 
 .row{
@@ -46,7 +46,17 @@ h2{
     opacity:100%;
 }
 
-.header{
+.header{    
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.header > a{
     text-transform: uppercase;
-    
+    color: #A9A9A9;
+    margin: 5%;
+}
+
+.header > a:hover{
+    color: #626262;
 }
