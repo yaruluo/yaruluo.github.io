@@ -39,4 +39,9 @@ h2{
     color: #0275DA;
 }
 
-
+.socials > a{
+    opacity: 80%;
+}
+.socials > a:hover{
+    opacity:100%;
+}
