@@ -11,6 +11,12 @@ body {
   padding: 13%;
 }
 
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .column {
   float: left;
   width: 50%;
