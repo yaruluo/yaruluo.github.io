@@ -12,73 +12,117 @@
 
   </head>
   <body>
-  	<div class="header">
-  	    <a href="index.html">Home</a>
-  	    <a href="about.html">About</a>
-  	    <a href="projects.html">Portfolio</a>
-  	</div>
+
+    <!-------------------- NAV BAR -------------------->
+    <div class="header">
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="projects.html">Portfolio</a>
+      <a href="">Contact</a>
+    </div>
     <br><br>
-
-      <div class="content">
-	<div class="row">
-	  <div class="column">
-	    <h1>
-	      Hi! I'm Yaru.<br>
-	      I'm a 
-	      <a style="color: #0275DA;" class="typewrite" data-period="2000" data-type='[ "student.", "coder.", "writer.", "self-proclaimed Twitter addict."]'>
-		<span class="wrap"></span>
-	      </a>
-	    </h1>
-	  </div>
-
-	  <div class="column">
-	    <img src="img/pic.JPG" width="80%">
-	  </div>
+    
+    <div class="content">
+      <!-------------------- HELLO -------------------->
+      <div class="row">
+	<div class="column" id="one">
+	  <span id="first">Hi! I'm Yaru.</span><br>
+	  <span id="second">
+	    I'm a 
+	    <a style="color: #0275DA;" class="typewrite" data-period="2000" data-type='[ "student.", "coder.", "writer.", "self-proclaimed Twitter addict."]'>
+	      <span class="wrap"></span>
+	    </a>
+	  </spans>
 	</div>
-	<br><br><br><br><br><hr><br>
-	<div class="about">
-	  <h2>About me</h2>
-	  <p>
-	    Hey! My name is Yaru Luo, but you can call me Ru. I'm a senior at Stuyvesant High School and I'm from NYC. I like working with children, contributing to teams, and listening to rock or indie music when I code. I'm a big Yankees fan and I absolutely love reading Ursula le Guin, Virginia Woolf, and David Mitchell. It's nice to meet you!
-	    <br><br>
-	    I'm interested in both literature and computer science. I'm curious about natural language processing and AI, and I'd like to bridge the divides between science and the humanities.
-	  </p><br>
+
+	<div class="column" id="two">
+	  <img src="img/pic.JPG" width="80%">
 	</div>
-      <br><hr><br>
       </div>
+      <br><br><br><br><br>
 
-      <br><br>
-      <div class="footer">
-	
-	<!-- socials -->
-	<div class=socials>
-	  <a href="https://www.instagram.com/kangyaru">
-	    <img src="img/ig.png" height="30px;" width="30px;">
-	  </a>
-	  <a href="https://twitter.com/yaruluo_">
-	    <img src="img/tw.png" height="30px;" width="30px;">
-	  </a>
-	  <a href="https://www.facebook.com/kangyaru">
-	    <img src="img/fb.png" height="30px;" width="30px;">
-	  </a>
-	  <a href="https://open.spotify.com/user/22higkqu3v4rzbbi65p7zkfna?si=pdcxvweYQACJLDtPgtE0AA">
-	    <img src="img/sp.png" height="30px;" width="30px;">
-	  </a>
-	  <a href="https://www.linkedin.com/in/yaruluo/">
-	    <img src="img/li.png" height="30px;" width="30px;">
-	  </a>
-	  <a href="https://github.com/yaruluo">
-	    <img src="img/gh.png" height="30px;" width="30px;">
-	  </a>
-	  <a href="mailto:yaruluo09@gmail.com">
-	    <img src="img/gm.png" height="30px;" width="30px;">
-	  </a>
-	</div>
-	<br>&copy;Yaru Luo || 2020
+      <!-------------------- ABOUT ME -------------------->
+      <div id="about" class="about">
+	<hr><br>
+	<h2>About me</h2>
+	<p>
+	  Hey! My name is Yaru Luo, but you can call me Ru. I'm a senior at Stuyvesant High School and I'm from NYC. I like working with children, contributing to teams, and listening to rock or indie music when I code. I'm a big Yankees fan and I absolutely love reading Ursula le Guin, Virginia Woolf, and David Mitchell. It's nice to meet you!
+	  <br><br>
+	  I'm interested in both literature and computer science. I'm curious about natural language processing and AI, and I'd like to bridge the divides between science and the humanities.
+	</p><br>
       </div>
-	
-	
-	<script src="js/main.js"></script>
-	
+      <br>
+
+      <!-------------------- RESUME -------------------->
+      <div class="resume" id="resume">
+	<hr><br>
+	<h2>Professional Summary</h2>
+	<h3>Education</h3>
+	<b>University of California, Berkeley / University of Michigan </b> (2020-2024)
+	<span style="float:right;"><i>Bay Area, CA / Ann Arbor, MI</i></span>
+	<ul>
+	  <li>Expected double major in Literature and Computer Science
+	</ul>
+	<b>Stuyvesant High School</b> (2016-2020)
+	<span style="float:right;"><i>New York City, NY</i></span>
+	<ul>
+	  <li>Overall GPA: 3.8; Technical GPA: 4.00
+	  <li>Relevant Courses: Software Development, AP English Literature, Data Structures & Algorithms
+	  <li>Activities:
+	    <a href="https://stuynaught.github.io/">Zero Robotics</a> co-captain,
+	    <a href="https://www.stuyspec.com">Stuyvesant Spectator</a> business manager, StuyFem board director, Track & Field athlete, Red Cross volunteer
+	</ul>
+
+	<h3>Skills</h3>
+	<ul>
+	  <li>Programming: Python, Java, JS, HTML/CSS, Flask
+	  <li>Data Analysis: Pandas, Matlab, Plotly, Excel
+	  <li>Languages: Conversational Mandarin
+	</ul>
+
+	<h3>Awards & Honors</h3>
+	<ul>
+	  <li>First Place in the 2019 International Zero Robotics competition
+	  <li>Best Environmental Hack at ByteHacks, the largest all-women hackathon centered in NYC
+	</ul>
+      </div>
+      
+    </div>
+
+    <!-------------------- FOOTER -------------------->
+    <br><br>
+    <div class="footer">
+      
+      <!-- socials -->
+      <div class=socials>
+	<a href="https://www.instagram.com/kangyaru">
+	  <img src="img/ig.png" height="30px;" width="30px;">
+	</a>
+	<a href="https://twitter.com/yaruluo_">
+	  <img src="img/tw.png" height="30px;" width="30px;">
+	</a>
+	<a href="https://www.facebook.com/kangyaru">
+	  <img src="img/fb.png" height="30px;" width="30px;">
+	</a>
+	<a href="https://open.spotify.com/user/22higkqu3v4rzbbi65p7zkfna?si=pdcxvweYQACJLDtPgtE0AA">
+	  <img src="img/sp.png" height="30px;" width="30px;">
+	</a>
+	<a href="https://www.linkedin.com/in/yaruluo/">
+	  <img src="img/li.png" height="30px;" width="30px;">
+	</a>
+	<a href="https://github.com/yaruluo">
+	  <img src="img/gh.png" height="30px;" width="30px;">
+	</a>
+	<a href="mailto:yaruluo09@gmail.com">
+	  <img src="img/gm.png" height="30px;" width="30px;">
+	</a>
+      </div>
+      <br>&copy;Yaru Luo || 2020
+    </div>
+    
+    
+    <script src="js/main.js"></script>
+    
   </body>
 </html>

@@ -1,38 +1,60 @@
 * {
     text-decoration: none;
 }
-
-body {
-  /* background-color:#e6f7ff; */
-  color:#333333;
-  /* font-family: Helvetica, sans-serif; */
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+html {
+    scroll-behavior: smooth;
 }
 
-.content{
+body {
+    color:#333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+@media screen and ( min-width: 771px) {
+    #first {
+	font-size: 54px;
+    }
+    #second {
+	font-size: 38px;
+    }
+}
+@media screen and ( max-width: 770px) {
+    #first {
+	font-size: 40px;
+    }
+    #second{
+	font-size: 28px;
+    }
+}
+
+.content {
     padding-left: 13%;
     padding-right: 13%;
     padding-bottom: 2%;
 }
 
 .row{ 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  text-align: center;
+.column{
+    width: 50%;
+}
+#one {
+    float: left;
+}
+#two > img{
+    float: center;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .footer{
@@ -61,10 +83,13 @@ h2{
 .header > a{
     text-transform: uppercase;
     color: #A9A9A9;
-    margin: 5%;
+    margin: 3%;
+    font-size: 16px;
 }
 
 .header > a:hover{
     color: #0275DA;
 }
+
+
 
