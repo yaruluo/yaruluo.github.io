@@ -45,3 +45,7 @@ h2{
 .socials > a:hover{
     opacity:100%;
 }
+
+.header{
+    padding:0%;
+}
