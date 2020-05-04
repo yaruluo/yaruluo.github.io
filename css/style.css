@@ -23,7 +23,7 @@ body {
     #first {
 	font-size: 40px;
     }
-    #second{
+    #second {
 	font-size: 28px;
     }
 }
@@ -34,19 +34,19 @@ body {
     padding-bottom: 2%;
 }
 
-.row{ 
+.row { 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.column{
+.column {
     width: 50%;
 }
 #one {
     float: left;
 }
-#two > img{
+#two > img {
     float: center;
 }
 
@@ -57,40 +57,83 @@ body {
     clear: both;
 }
 
-.footer{
+.footer {
     text-align: center;
     color: grey;
     padding-bottom: 4%;
 }
 
-h2{
+h2 {
     color: #0275DA;
 }
 
-.socials > a{
+.socials > a {
     opacity: 80%;
 }
-.socials > a:hover{
+.socials > a:hover {
     opacity:100%;
 }
 
-.header{    
-    text-align: center;
-    padding-bottom: 2px;
-    padding-top: 25px;
+/* collapsing sidebar 
+  from: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
+*/
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.header > a{
-    text-transform: uppercase;
-    color: #A9A9A9;
-    margin: 3%;
-    font-size: 16px;
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
-.header > a:hover{
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
     color: #0275DA;
+    padding: 10px 15px;
+    border: none;
+    float: right
 }
 
+.openbtn:hover {
+    background-color: #111;
+}
 
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and ( max-height: 450px) {
+    .sidebar { padding-top: 15px;}
+    .sidebar a { font-size: 18px;}
+}
 
+/* end of collapsing sidebar */
