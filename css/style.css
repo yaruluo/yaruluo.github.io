@@ -95,7 +95,13 @@ h2 {
     padding-top: 60px;
 }
 
+/* .box { */
+/*     padding: 8px 8px 8px 32px; */
+/*     display: inline-block; */
+/* } */
+
 .navigating a {
+    
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 18px;
@@ -146,6 +152,7 @@ h2 {
     margin-right: 25%;
     border-radius: 50%;
     border: 8px solid #2c2f3f;
+    /* box-shadow: 0 0 0 8px #2c2f3f, 0 0 0 9px white; */
 }
 
 .sidebar > p {
@@ -157,6 +164,7 @@ h2 {
 
 .links img {
     border-radius: 50%;
+    /* background: white; */
 }
 .links { 
     text-align: center;
