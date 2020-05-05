@@ -33,17 +33,21 @@ body {
     padding-right: 13%;
     padding-bottom: 2%;
 }
-
+/* .fullsize{ */
+/*     height: 100vh; */
+/* } */
 .row { 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .column {
     width: 50%;
 }
 #one {
+    float: left;
+}
+#first, #second {
     float: left;
 }
 #two > img {
@@ -134,6 +138,13 @@ h2 {
 @media screen and ( max-height: 450px) {
     .sidebar { padding-top: 15px;}
     .sidebar a { font-size: 18px;}
+}
+
+.sidebar > img {
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    border-radius: 50%;
 }
 
 /* end of collapsing sidebar */
