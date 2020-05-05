@@ -95,10 +95,10 @@ h2 {
     padding-top: 60px;
 }
 
-.sidebar a {
+.navigating a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -142,9 +142,26 @@ h2 {
 
 .sidebar > img {
     width: 50%;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 50%;
+    border: 8px solid #2c2f3f;
+}
+
+.sidebar > p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.links img {
     border-radius: 50%;
 }
+.links { 
+    text-align: center;
+}
+
+    
 
 /* end of collapsing sidebar */
