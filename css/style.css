@@ -73,6 +73,7 @@ h2 {
 
 .socials > a {
     opacity: 80%;
+    transition: 0.3s;
 }
 .socials > a:hover {
     opacity:100%;
