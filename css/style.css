@@ -102,13 +102,17 @@ h2 {
 /* } */
 
 .navigating a {
-    
     padding: 8px 8px 8px 32px;
+    margin-bottom: 4px;
     text-decoration: none;
     font-size: 18px;
     color: #818181;
-    display: block;
+    display: flex;
+    align-items: center;
     transition: 0.3s;
+}
+.navigating img {
+    padding-right: 15px;
 }
 
 .sidebar a:hover {
@@ -148,9 +152,9 @@ h2 {
 }
 
 .sidebar > img {
-    width: 50%;
+    width: 45%;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 30%;
     border-radius: 50%;
     border: 8px solid #2c2f3f;
     /* box-shadow: 0 0 0 8px #2c2f3f, 0 0 0 9px white; */
