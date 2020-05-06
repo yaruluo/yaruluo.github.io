@@ -79,7 +79,7 @@ h2 {
     opacity:100%;
 }
 
-/* collapsing sidebar 
+/* ----------------------- collapsing sidebar ------------------------
   from: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
 */
 
@@ -111,6 +111,11 @@ h2 {
     align-items: center;
     transition: 0.3s;
 }
+
+.navigating a:active {
+    color: #f1f1f1;
+}
+
 .navigating img {
     padding-right: 15px;
 }
