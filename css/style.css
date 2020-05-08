@@ -51,7 +51,7 @@ body {
     float: left;
 }
 #two > img {
-    float: center;
+    float: right;
 }
 
 /* Clear floats after the columns */
@@ -182,4 +182,21 @@ h2 {
 
     
 
-/* end of collapsing sidebar */
+/* ---------------- end of collapsing sidebar ---------------- */
+
+/* ---------------- PORTFOLIO  ---------------- */
+
+
+/* /\* Responsive layout - makes a two column-layout instead of four columns *\/ */
+/* @media screen and (max-width: 900px) { */
+/*   .Pcolumn { */
+/*     width: 50%; */
+/*   } */
+/* } */
+
+/* /\* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/ */
+/* @media screen and (max-width: 600px) { */
+/*   .Pcolumn { */
+/*     width: 100%; */
+/*   } */
+/* } */
