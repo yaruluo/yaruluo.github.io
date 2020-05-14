@@ -74,10 +74,15 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
 }
 
-content.addEventListener( 'click', function( e){
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-});
+document.body.addEventListener("click", closeNav,false);
+
+function scrollTriggered() {
+    console.log('hi');
+}
+
+document.getElementById('openbtn').addEventListener('click',function(e) {
+    e.stopPropagation();
+}, true);
 
 
 // ================= end of collapsing sidebar =================
