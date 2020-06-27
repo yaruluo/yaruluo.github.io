@@ -1,3 +1,7 @@
+/* --------------- */
+/* to do: clean up */
+/* --------------- */
+
 * {
     text-decoration: none;
 }
@@ -179,6 +183,15 @@ h2 {
 .links { 
     text-align: center;
 }
+
+/* @media screen and (min-width: 900px) { */
+/*     .sidebar { */
+/* 	width: 250px; */
+/*     } */
+/*     .openbtn { */
+/* 	/\* visibility: hidden; *\/ */
+/*     } */
+/* } */
 
     
 
