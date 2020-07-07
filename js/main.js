@@ -66,24 +66,27 @@ window.onload = function(){
 // var x = window.matchMedia( "min-width: 900px)")
 
 function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
+    console.log( 'open');
+    document.getElementById( "mySidebar").style.width = "250px";
     // document.getElementById("main").style.marginLeft = "250px";
     // document.getElementById("navbtn").innerHTML = "×";
 }
 
 function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
+    console.log( 'close');
+    document.getElementById( "mySidebar").style.width = "0";
+    document.getElementById( "main").style.marginLeft= "0";
 }
 
 document.body.addEventListener( "click", closeNav,false);
 
 function scrollTriggered() {
-    console.log('hi');
+    console.log( 'hi');
 }
 
-document.getElementById('openbtn').addEventListener('click',function(e) {
+document.getElementById( 'openbtn').addEventListener( 'click', function(e) {
     e.stopPropagation();
+    console.log( 'clicked');
 }, true);
 
 
