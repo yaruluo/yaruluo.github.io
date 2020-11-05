@@ -15,7 +15,7 @@ body {
     font-size: 18px;
 }
 
-@media screen and ( min-width: 771px) {
+@media screen and ( min-width: 801px) {
     #first {
 	font-size: 54px;
     }
@@ -23,12 +23,20 @@ body {
 	font-size: 38px;
     }
 }
-@media screen and ( max-width: 770px) {
+@media screen and ( max-width: 800px) {
     #first {
 	font-size: 40px;
     }
     #second {
 	font-size: 28px;
+    }
+}
+@media screen and ( min-width: 370px) {
+    #first {
+	font-size: 30px;
+    }
+    #second {
+	font-size: 20px;
     }
 }
 
