@@ -82,6 +82,9 @@ body {
 h2 {
     color: #0275DA;
 }
+b {
+    color: #7e9a9a;
+}
 
 .socials > a {
     opacity: 80%;
