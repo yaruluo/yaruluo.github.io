@@ -87,6 +87,8 @@ function scrollTriggered() {
 document.getElementById( 'openbtn').addEventListener( 'click', function(e) {
     e.stopPropagation();
     console.log( 'clicked');
+    
+    document.getElementById( "mySidebar").style.width = "250px";
 }, true);
 
 
