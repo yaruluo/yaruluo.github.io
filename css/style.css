@@ -2,6 +2,7 @@
 /* to do: clean up */
 /* --------------- */
 
+
 * {
     text-decoration: none;
 }
@@ -14,6 +15,15 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+
+.row1 {
+  display: flex; /* equal height of the children */
+}
+
+.col1 {
+  padding: .5em;
+}
+
 /* @media screen and ( max-width: 400 px){ */
     #first {
 	font-size: 30px;
@@ -194,6 +204,7 @@ b {
 .links { 
     text-align: center;
 }
+
 
 /* @media screen and (min-width: 900px) { */
 /*     .sidebar { */
