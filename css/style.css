@@ -205,6 +205,17 @@ b {
     text-align: center;
 }
 
+.column-left{ float: left; width: 33%; } 
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
+
+@media (max-width: 767px) {
+.column-left{ float: left; width: 100%; } 
+.column-right{ float: right; width: 100%; }
+.column-center{ display: inline-block; width: 100%; }  
+}
+
+
 
 /* @media screen and (min-width: 900px) { */
 /*     .sidebar { */
